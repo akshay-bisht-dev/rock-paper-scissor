@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    text-transform: uppercase;
+}
+.gameBoard{
+    width: 50%;
+    background-color: black;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    margin: 1rem 0;
+    border: 5px solid white;
+}
+table tr td{
+    text-transform: uppercase;
+    padding: 1rem;
+    color: white;
+}
+
+button{
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.myWidth{
+    width: 200px;
+}
